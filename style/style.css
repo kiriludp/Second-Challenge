@@ -1,0 +1,68 @@
+:root {
+  --main-bg: #ffff;
+  --he-bg: rgb(121, 39, 84); 
+  --alltext: #30304b;
+  --b-outl: #26262b;
+  --subhe: purple;
+  --sub-out: gold;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+h2 {
+    margin: 5px;
+    text-align: center;
+}
+
+h4 {
+    text-align: start;
+}
+
+header {
+    padding: 35px;
+    background-color: var(--he-bg);
+    color: var(--alltext);
+}
+
+nav {
+    text-align: end;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    flex-flow: row wrap;
+    align-items: center;
+    
+}
+.side-bar {
+    margin-block-start: 20px;
+    border-style: solid;
+    border-color: var(--b-outl);
+}
+
+.work-ex {
+    margin: 10px;
+}
+
+.work-ex img {
+    height: 400px;
+    width: 600px;
+}
+
