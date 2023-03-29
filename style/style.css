@@ -52,7 +52,7 @@ main {
    
 aside {
     border-style: groove;
-    border color: var(--he-bg);
+    border-color: var(--he-bg);
    background-color: var(--subhe);
    padding: 10px;
    font-size: larger;
