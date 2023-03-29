@@ -18,12 +18,9 @@ For this challenge I started by building out a wire frame of the porfolio outlin
 I began with the base of the wire frame using Excalidraw. Included with the wire frame is the tablet and phone views as well as planned details.
 
 
-<---insert pictures here--->
+After my wire frame has been created, I move to adding in basic code structure. We are building this code from scratch and building a solid foundation is the best way to begin. I started wih my basic HTML frame work knowing I wanted a header, side bar, and three information boxes for About Me,  Work Examples, and Contact information. I also wanted o include a navigation bar and links to my active pieces of work. 
 
-
-/* Base HTML structure */
-
-After my wire frame has been created, I move to adding in basic code structure. We are building this code from scratch and building a solid foundation is the best way to begin. 
+Once the HMTL had been built, I went into the CSS to begin adding visual details. This included color scheme, text, and utilizing flex boxes to break up the information into different sections. I wanted to ensure these sections retained their properties regardless of screen size and included the @media query as well. 
 
 
 
@@ -31,4 +28,5 @@ After my wire frame has been created, I move to adding in basic code structure. 
 
 Coding Bootcamp Instructor and TAs
 w3Schools.com as a resource/examples
-Kara Anderson
+Stack Overflow
+Developer Mozilla
