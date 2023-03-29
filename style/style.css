@@ -1,10 +1,10 @@
 :root {
-    --main-bg: #ebffff;
-    --he-bg: rgb(179, 179, 206); 
+    --main-bg: #f0fafa;
+    --he-bg: rgba(199, 199, 207, 0.801); 
     --alltext: #0b0a1f;
     --b-outl: #2e0b35;
-    --subhe: purple;
-    --sub-out: gold;
+    --subhe: rgba(204, 179, 204, 0.815);
+    --sub-out: rgb(247, 66, 66);
   }
 
 * {
@@ -12,14 +12,14 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     margin: 0;
 }
 
 header {
     display: flex;
-    background-color: var(--he-bg);
-    color: var(--b-outl);
+    background-image: linear-gradient(rgb(105, 8, 89),rgb(68, 55, 68), rgb(223, 15, 15), rgb(185, 185, 185));
+    color: var(--main-bg);
     padding: 35px;
 }
 
@@ -51,13 +51,13 @@ main {
 
    
 aside {
-   flex: 1;
+    border-style: groove;
+    border color: var(--he-bg);
    background-color: var(--subhe);
-   padding: 20px;
-   height: 100vh;
-   max-width: 30vh;
-   
-
+   padding: 10px;
+   font-size: larger;
+   line-height: 25;
+ 
 }
 
 section {
@@ -72,10 +72,8 @@ section {
     display: flex;
     flex; 3,
     flex-basis: 100vh;
-    border-style: dashed;
-    border-color: var(--sub-out);
+    border-style: solid;
     
-
     
 }
 
@@ -99,7 +97,8 @@ section {
 .contact {
     display: flex;
     border-style: dotted;
-    border-color: var(--b-outl);
+    border-color: var(--sub-out);
     flex-basis: 100vh;
-
+    font-size: 18px;
+    text-align: center;
 }
