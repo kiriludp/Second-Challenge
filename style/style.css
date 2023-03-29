@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
 
@@ -53,10 +53,10 @@ main {
 aside {
     border-style: groove;
     border-color: var(--he-bg);
-   background-color: var(--subhe);
-   padding: 10px;
-   font-size: larger;
-   line-height: 25;
+    background-color: var(--subhe);
+    padding: 10px;
+    font-size: larger;
+    line-height: 25;
  
 }
 
@@ -70,7 +70,7 @@ section {
 
 .about-me {
     display: flex;
-    flex; 3,
+    flex: 3;
     flex-basis: 100vh;
     border-style: solid;
     
@@ -83,7 +83,7 @@ section {
     border-style:solid;
     flex-basis: 400px;
     gap: 10px;
-    border-color: var (--sub-out);
+    border-color: var(--sub-out);
 }
 
 .work-ex img {
