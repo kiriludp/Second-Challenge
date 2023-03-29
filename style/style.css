@@ -1,93 +1,105 @@
 :root {
-  --main-bg: #ffff;
-  --he-bg: rgb(121, 39, 84); 
-  --alltext: #30304b;
-  --b-outl: #26262b;
-  --subhe: purple;
-  --sub-out: gold;
-}
+    --main-bg: #ebffff;
+    --he-bg: rgb(179, 179, 206); 
+    --alltext: #0b0a1f;
+    --b-outl: #2e0b35;
+    --subhe: purple;
+    --sub-out: gold;
+  }
 
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-
+* {
+    box-sizing: border-box;
 }
 
 body {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  justify-content: flex-start; 
-}
-
-h1 {
-    margin-bottom: 10px;
-    text-align: start;
-}
-
-h2 {
-    margin: 5px;
-    text-align: start;
-}
-
-h3 {
-    margin: 25px;
-    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
 header {
-    padding: 35px;
+    display: flex;
     background-color: var(--he-bg);
-    color: var(--alltext);
+    color: var(--b-outl);
+    padding: 35px;
+}
+
+h1 {
+    align-items: start;
+    font-size: 40px;
+    font-style: bold;
+
 }
 
 nav {
-    text-align: end;
+    display:flex;
+    background-color: var(--he-bg);
 }
 
-.container {
-    display: flex grid;
-	flex-wrap: wrap;
-	flex-direction: row;
-	place-content: flex-start;
-    height: 100vh;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+nav a {
+    font-size: 17px;
+    color: var(--sub-out);
+    padding: 13px 20px;
 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100vh;
+    
+}
+
+   
+aside {
+   flex: 1;
+   background-color: var(--subhe);
+   padding: 20px;
+   height: 100vh;
+   max-width: 30vh;
+   
+
+}
+
+section {
+    flex: 3;
+    flex-basis: 100vh;
+    background-color: var(--main-bg);
+    flex-direction: column;
 
 }
 
 .about-me {
-    width: 100%;
-    height:fit-content;
-	background-color: var(--subhe);
-    grid-column: span 1;
-    grid-row: span 2;
-	
-}
+    display: flex;
+    flex; 3,
+    flex-basis: 100vh;
+    border-style: dashed;
+    border-color: var(--sub-out);
+    
 
-
-.side-bar {
-    border-style: solid;
-    border-color: var(--b-outl);
-    display: grid;
-    grid-row: span 10
+    
 }
 
 .work-ex {
-    margin: 10px;
-    grid-column: span 2
-    grid-row: span 2
+    display: flex;
+    flex-wrap: wrap;
+    border-style:solid;
+    flex-basis: 400px;
+    gap: 10px;
+    border-color: var (--sub-out);
 }
 
 .work-ex img {
-    height: 400px;
-    width: 600px;
+    object-fit: cover;
+    max-width: 90%;
+    vertical-align: middle;
+    gap:15px;
+
 }
 
 .contact {
-    grid-area: D;
-}
+    display: flex;
+    border-style: dotted;
+    border-color: var(--b-outl);
+    flex-basis: 100vh;
 
+}
